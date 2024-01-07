@@ -25,7 +25,7 @@ public class Pizza implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto Incremento
     private Long id;
 
     @Column(name = "name", length = 255)
